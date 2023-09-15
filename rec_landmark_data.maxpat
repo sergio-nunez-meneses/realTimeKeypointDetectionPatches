@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 457.0 ],
+		"rect" : [ 42.0, 100.0, 1444.0, 457.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -93,9 +93,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1335.0, 210.0, 85.0, 76.0 ],
-					"presentation_linecount" : 5,
-					"text" : ";\rlz_min -0.01;\rlz_max -0.1;\rrz_min -0.015;\rrz_max -0.085"
+					"patching_rect" : [ 1335.0, 210.0, 85.0, 77.0 ],
+					"text" : ";\r\nlz_min -0.01;\r\nlz_max -0.1;\r\nrz_min -0.015;\r\nrz_max -0.085"
 				}
 
 			}
@@ -123,7 +122,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -506,7 +505,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1066,7 +1065,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1132.0, 286.59765625, 33.0, 20.0 ],
+					"patching_rect" : [ 1137.0, 286.59765625, 33.0, 20.0 ],
 					"text" : "<-- z"
 				}
 
@@ -1077,7 +1076,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1111.0, 256.59765625, 33.0, 20.0 ],
+					"patching_rect" : [ 1116.0, 256.59765625, 33.0, 20.0 ],
 					"text" : "<-- y"
 				}
 
@@ -1088,7 +1087,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1088.0, 226.59765625, 33.0, 20.0 ],
+					"patching_rect" : [ 1093.0, 226.59765625, 33.0, 20.0 ],
 					"text" : "<-- x"
 				}
 
@@ -1099,8 +1098,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 999.666666666666742, 255.59765625, 113.0, 22.0 ],
-					"text" : "proto_rec-landmark"
+					"patching_rect" : [ 999.666666666666742, 255.59765625, 118.0, 22.0 ],
+					"text" : "rec_coordinate_data"
 				}
 
 			}
@@ -1110,8 +1109,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 977.0, 224.59765625, 113.0, 22.0 ],
-					"text" : "proto_rec-landmark"
+					"patching_rect" : [ 977.0, 224.59765625, 118.0, 22.0 ],
+					"text" : "rec_coordinate_data"
 				}
 
 			}
@@ -1121,8 +1120,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1022.333333333333485, 285.59765625, 113.0, 22.0 ],
-					"text" : "proto_rec-landmark"
+					"patching_rect" : [ 1022.333333333333485, 285.59765625, 118.0, 22.0 ],
+					"text" : "rec_coordinate_data"
 				}
 
 			}
@@ -1155,7 +1154,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 922.0, 285.59765625, 33.0, 20.0 ],
+					"patching_rect" : [ 926.0, 285.59765625, 33.0, 20.0 ],
 					"text" : "<-- z"
 				}
 
@@ -1167,7 +1166,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1004.0, 44.59765625, 181.0, 33.0 ],
+					"patching_rect" : [ 1004.0, 44.59765625, 181.0, 34.0 ],
 					"text" : "wrist, thumb, index, middle, ring,\npinky, hand_is_visible"
 				}
 
@@ -1178,7 +1177,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 901.0, 255.59765625, 33.0, 20.0 ],
+					"patching_rect" : [ 905.0, 255.59765625, 33.0, 20.0 ],
 					"text" : "<-- y"
 				}
 
@@ -1189,7 +1188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 878.0, 225.59765625, 33.0, 20.0 ],
+					"patching_rect" : [ 882.0, 225.59765625, 33.0, 20.0 ],
 					"text" : "<-- x"
 				}
 
@@ -1200,8 +1199,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 789.666666666666742, 254.59765625, 113.0, 22.0 ],
-					"text" : "proto_rec-landmark"
+					"patching_rect" : [ 789.666666666666742, 254.59765625, 118.0, 22.0 ],
+					"text" : "rec_coordinate_data"
 				}
 
 			}
@@ -1211,8 +1210,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 767.0, 224.59765625, 113.0, 22.0 ],
-					"text" : "proto_rec-landmark"
+					"patching_rect" : [ 767.0, 224.59765625, 118.0, 22.0 ],
+					"text" : "rec_coordinate_data"
 				}
 
 			}
@@ -1223,7 +1222,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1170.0, 284.59765625, 34.0, 22.0 ],
+					"patching_rect" : [ 1185.0, 285.0, 34.0, 22.0 ],
 					"text" : "write"
 				}
 
@@ -1234,8 +1233,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 812.333333333333371, 284.59765625, 113.0, 22.0 ],
-					"text" : "proto_rec-landmark"
+					"patching_rect" : [ 812.333333333333371, 284.59765625, 118.0, 22.0 ],
+					"text" : "rec_coordinate_data"
 				}
 
 			}
@@ -1307,8 +1306,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1335.0, 75.0, 55.0, 35.0 ],
-					"text" : ";\rrec bang"
+					"patching_rect" : [ 1335.0, 75.0, 55.0, 36.0 ],
+					"text" : ";\r\nrec bang"
 				}
 
 			}
@@ -1332,8 +1331,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1335.0, 120.0, 65.0, 35.0 ],
-					"text" : ";\rreset bang"
+					"patching_rect" : [ 1335.0, 120.0, 65.0, 36.0 ],
+					"text" : ";\r\nreset bang"
 				}
 
 			}
@@ -1924,65 +1923,23 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "filter_landmark_data.maxpat",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches",
+				"bootpath" : "~/Documents/realTimeKeypointDetectionPatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lx_close.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ly_close.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lz_close.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "parse_hand_data.maxpat",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches",
+				"bootpath" : "~/Documents/realTimeKeypointDetectionPatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "proto_rec-landmark.maxpat",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/prototypes",
-				"patcherrelativepath" : "../prototypes",
+				"name" : "rec_coordinate_data.maxpat",
+				"bootpath" : "~/Documents/realTimeKeypointDetectionPatches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rx_close.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ry_close.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rz_close.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
