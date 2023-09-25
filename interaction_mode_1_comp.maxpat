@@ -789,7 +789,7 @@
 					"ruler" : 1,
 					"showstems" : 0,
 					"showvelocity" : 1,
-					"stafflines" : [ 5 ],
+					"stafflines" : [ 5, 1, 1, 1 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"versionnumber" : 80300,
 					"voicenames" : [ "Piano", "Record", "Play", "Amp" ],
