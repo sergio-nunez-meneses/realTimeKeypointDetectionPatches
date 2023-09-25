@@ -240,7 +240,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 347.0, 340.0, 76.666666666666629, 22.0 ],
-					"text" : "-0.136364"
+					"text" : "-0.1"
 				}
 
 			}
@@ -252,7 +252,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 347.0, 316.0, 76.666666666666629, 22.0 ],
-					"text" : "-0.136364"
+					"text" : "-0.01"
 				}
 
 			}
@@ -264,7 +264,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 137.0, 340.0, 76.666666666666629, 22.0 ],
-					"text" : "-0.136364"
+					"text" : "-0.085"
 				}
 
 			}
@@ -276,7 +276,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 137.0, 316.0, 76.666666666666629, 22.0 ],
-					"text" : "-0.136364"
+					"text" : "-0.015"
 				}
 
 			}
@@ -324,7 +324,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 765.0, 76.40234375, 55.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : ";\rrec bang"
 				}
 
@@ -338,7 +337,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 765.0, 121.40234375, 65.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : ";\rreset bang"
 				}
 
@@ -351,7 +349,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1307.0, 227.0, 115.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "<-- save coordinate \ndata as text file"
 				}
 
@@ -550,7 +547,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1080.0, 76.0, 181.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "wrist, thumb, index, middle, ring,\npinky, hand_is_visible"
 				}
 
@@ -748,8 +744,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 16.0, 145.0, 20.0 ],
-					"text" : "<-- \"r\" turns on, s turns off"
+					"patching_rect" : [ 89.0, 16.0, 154.0, 20.0 ],
+					"text" : "<-- \"r\" turns on, \"s\" turns off"
 				}
 
 			}
@@ -2564,7 +2560,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 118.916666666666742, 676.0, 87.0, 33.75 ],
-					"text" : "0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 
 			}
@@ -2589,7 +2585,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 118.916666666666742, 631.0, 87.0, 33.75 ],
-					"text" : "1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+					"text" : "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
 				}
 
 			}
@@ -3071,6 +3067,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-22",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -3085,7 +3082,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-21",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -3853,8 +3850,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 931.0, 660.0, 141.0, 22.0 ],
-					"text" : "crop 0. 2455."
+					"patching_rect" : [ 931.0, 660.0, 141.0, 22.0 ]
 				}
 
 			}
@@ -4669,7 +4665,7 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 0.8, 0.0, 1.0 ],
 					"destination" : [ "obj-221", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -4678,7 +4674,7 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.8, 0.0, 1.0 ],
 					"destination" : [ "obj-223", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-19", 3 ]
 				}
 
@@ -4714,7 +4710,7 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.8, 0.0, 1.0 ],
 					"destination" : [ "obj-85", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-19", 3 ]
 				}
 
@@ -4723,7 +4719,7 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 0.8, 0.0, 1.0 ],
 					"destination" : [ "obj-86", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -4958,7 +4954,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-221", 0 ],
 					"midpoints" : [ 866.5, 161.0, 459.5, 161.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -5008,7 +5004,7 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 0.8, 0.0, 1.0 ],
 					"destination" : [ "obj-86", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -5052,7 +5048,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-223", 0 ],
 					"midpoints" : [ 1076.5, 161.0, 594.5, 161.0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -5070,7 +5066,7 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.8, 0.0, 1.0 ],
 					"destination" : [ "obj-85", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -5572,48 +5568,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "20230920-1028_lx.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "20230920-1028_ly.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "20230920-1028_lz.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "20230920-1029_rx.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "20230920-1029_ry.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "20230920-1029_rz.txt",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
-				"patcherrelativepath" : "./data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
@@ -5633,8 +5587,8 @@
 			}
 , 			{
 				"name" : "groove_poly.maxpat",
-				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
