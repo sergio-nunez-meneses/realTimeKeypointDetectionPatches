@@ -40,6 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-279",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 960.0, 1275.0, 353.0, 22.0 ],
+					"text" : "exportimage @view scroll @mspersystem 30000 @adaptwidth 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-281",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 960.0, 1245.0, 347.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "exportimage @view multiline @mspersystem 10000 @dpi 5000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-265",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -155,7 +184,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.666666666666742, 1065.0, 372.0, 22.0 ],
-					"text" : "addchord 3 [ $1 [7100 100 1 [name play] [slots [23 cross] ] ] ] @sel 1"
+					"text" : "addchord 3 [ $1 [7100 0 100 [name play] [slots [23 cross] ] ] ] @sel 1"
 				}
 
 			}
@@ -167,7 +196,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.666666666666742, 975.0, 105.0, 22.0 ],
-					"text" : "51000.040542"
+					"text" : "13007.960708"
 				}
 
 			}
@@ -205,7 +234,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 945.0, 105.0, 22.0 ],
-					"text" : "51000.040542"
+					"text" : "13007.960708"
 				}
 
 			}
@@ -218,7 +247,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 1035.0, 373.0, 22.0 ],
-					"text" : "addchord 4 [ $1 [7100 100 1 [name amp] [slots [23 cross] ] ] ] @sel 1"
+					"text" : "addchord 4 [ $1 [7100 0 100 [name amp] [slots [23 cross] ] ] ] @sel 1"
 				}
 
 			}
@@ -291,7 +320,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 1005.0, 366.0, 22.0 ],
-					"text" : "addchord 2 [ $1 [7100 100 1 [name rec] [slots [23 cross] ] ] ] @sel 1"
+					"text" : "addchord 2 [ $1 [7100 0 100 [name rec] [slots [23 cross] ] ] ] @sel 1"
 				}
 
 			}
@@ -368,7 +397,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 915.0, 105.0, 22.0 ],
-					"text" : "51000.040542"
+					"text" : "13007.960708"
 				}
 
 			}
@@ -999,7 +1028,7 @@
 					"versionnumber" : 80300,
 					"voicenames" : [ "Piano", "Record", "Play", "Amp" ],
 					"voicespacing" : [ -9.6, 17.0, 17.0, 17.0, 17.0 ],
-					"zoom" : 10.17578125
+					"zoom" : 29.8046875
 				}
 
 			}
@@ -4900,7 +4929,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 931.0, 645.0, 141.0, 22.0 ],
-					"text" : "crop 0. 2455."
+					"text" : "crop 0. 9550.677041"
 				}
 
 			}
@@ -5786,8 +5815,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
+					"destination" : [ "obj-208", 0 ],
 					"order" : 1,
+					"source" : [ "obj-169", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"order" : 2,
 					"source" : [ "obj-169", 0 ]
 				}
 
@@ -5808,8 +5845,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-257", 0 ],
+					"order" : 0,
+					"source" : [ "obj-170", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-170", 0 ]
 				}
 
@@ -5817,7 +5862,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-170", 0 ]
 				}
 
@@ -6186,7 +6231,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-175", 0 ],
+					"order" : 0,
+					"source" : [ "obj-239", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-193", 1 ],
+					"order" : 1,
 					"source" : [ "obj-239", 0 ]
 				}
 
@@ -6385,6 +6439,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"source" : [ "obj-265", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"source" : [ "obj-279", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"source" : [ "obj-281", 0 ]
 				}
 
 			}
@@ -7017,7 +7085,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-161", 0 ],
+					"order" : 1,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -7166,6 +7243,48 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "20230920-1028_lx.txt",
+				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
+				"patcherrelativepath" : "./data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20230920-1028_ly.txt",
+				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
+				"patcherrelativepath" : "./data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20230920-1028_lz.txt",
+				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
+				"patcherrelativepath" : "./data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20230920-1029_rx.txt",
+				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
+				"patcherrelativepath" : "./data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20230920-1029_ry.txt",
+				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
+				"patcherrelativepath" : "./data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20230920-1029_rz.txt",
+				"bootpath" : "~/Documents/Formation/master-uchile/Magister/patches/realTimeKeypointDetectionPatches/data",
+				"patcherrelativepath" : "./data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
